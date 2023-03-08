@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Questo è un commento fatto con CTRL+K+C: questo tag indica la lingua della pagine, il traduttore si basa su questo-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunshineMocha's first website</title>
+</head>
+    <body>
+        <h1>Hello everyone, I'm SunshineMocha!</h1>
+        <h3>Welcome to this website :)</h3>
+        <h4>Some text will be in italian</h4>
+
+        <h1>Esempi di titolo:</h1>  <!-- Heading. Le dimensioni sono una scelta del browser. Il titolo crea una semantica per il browser, spiega che è un elemento titolo per la ricerca -->
+        <h1>Titolo 1</h1>
+        <h2>Titolo 2</h2>
+        <h3>Titolo 3</h3>
+        <h4>Titolo 4</h4>
+        <h5>Titolo 5</h5>
+        <h6>Titolo 6</h6>
+
+        <p>
+            Questo è un paragrafo. <br>
+            Marca un periodo di senso compiuto
+        </p>
+        <p>
+            hey <br>
+        </p>
+
+        <strong>
+            testo in grassetto <br>
+        </strong>
+        <em>
+            corsivo <br>
+        </em>
+        Ohohoh, didnt expect me to use italian right? Gotcha! <br> heh
+
+
+        <h3>Lista numerata o menu</h3>
+        <ol>
+            <li>first</li> 
+                <ul> <!-- Sottolista -->
+                    <li>Spaghetti</li>
+                    <li>Gnocchi</li>
+                    <li>Ravioli ravioli give me the formuoli</li>
+                </ul>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+        <h3>Lista non numerata</h3>
+        <ul>
+            <li>first</li>
+            <li>second</li>
+            <li>third not numbered, but with dots!</li>
+        </ul>
+
+        <h3>TABELLE</h3>
+
+        <table>
+            <tr><td>Rooms</td><td>High Season</td><td>Low Season</td></tr> <!-- Struttura tabella -->
+            <tr><td>1 person</td><td>40€</td><td>20€</td></tr>
+            <tr><td>2 person</td><td>80€</td><td>40€</td></tr>
+            <tr><td>Luxury</td><td>420€</td><td>69€</td></tr>
+            <tr><td>Ultra Luxury</td><td>Kappa</td><td></td></tr>
+        </table>
+
+        <h3>Useful Links</h3>
+        <a href="https://www.google.com"> External Link (to Google)</a> <br> <!-- Perdo l'utente -->
+        <a href="https://www.google.com" target="_blank">External Link (to Google) (in a new tab)</a> <br>
+        <a href="./second_page.html">Second page</a> <!-- Navigazione interna al sito --> <br>
+        <a href="mailto:example@gmail.com">(Dont) Send me an email!</a> <br>
+        <a href="tel:+39 1234567890">(Dont) Call me!</a> <br>
+
+        <h3>THANK YOU VERY MUCH FOR READING THIS TEST SITE :D </h3>
+
+        Immagine locale <br>
+        <img src="./assets/269d49cc-c323-4fff-b3ef-2e7333b75b07-profile_image-300x300.png" alt="SunshineMocha Profile Picture" width="600" height="600"> <br>
+        Immagine da link <br>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/269d49cc-c323-4fff-b3ef-2e7333b75b07-profile_image-300x300.png" alt="Online SunshineMocha Profile Picture">
+    </body>
+
+
+</html>
+
+<!-- Appunti lezione -->
+    <!-- 
+        01. L'indentatura automatica del codice può essere eseguita tramite CTRL+K+F sul codice evidenziato
+        02. <p> crea paragrafo
+        03. <br> crea un paragrafo che va a capo automaticamente
+        04. b o strong = grassetto
+        05. em o i = corsivo
+        06. strong & em sono tag semantici, gli altri sono tag estetici
+        07. elenchi puntati e numerati sono con ol (Order List. Ogni elemento contenuto in tag li), UL (Unorder list. Ogni elemento contenuto in tag li)
+        08. table per tabelle, tr table row = riga, td table data
+                                       Tabella (table)
+        tr (nuova riga) -> | DATA (td) | td | td | td | td | td |
+        tr (""      "") -> | DATA (td) | td | td | td | td | td |
+        09. a = link href = attributo sito web di destinazione target "_blank" per aprire un'altra scheda invece di aggiornare la pagina corrente
+        10. Tag "Block" = vanno a capo automaticamente
+            Tag "In Line" = tag che accettano altri tag sulla stessa linea
+            Questo può essere cambiato con il CSS
+        11. "./" per navigazione interna nell'href
+        12. a:mail preformat per mail
+        13. a:tel preformat per numero di telefono
+        14. img per immagini Src Source Alt Descrizione immagine
+        15. Le immagini locali vanno nella cartella assets, url relativo ./
+        16. Attributi Height/Width per cambiare le dimensioni. Solitamente mai usate assieme
+    -->
